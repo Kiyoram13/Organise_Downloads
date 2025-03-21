@@ -97,7 +97,7 @@ root.title("Organizador de Descargas")
 root.geometry("500x650")
 
 # Cargar el icono personalizado
-icon_path = os.path.join(os.path.dirname(__file__), "dw.png")
+icon_path = os.path.join(os.path.dirname(__file__), "resources/dw.png")
 icono = ctk.CTkImage(light_image=Image.open(icon_path), size=(32, 32))
 
 
